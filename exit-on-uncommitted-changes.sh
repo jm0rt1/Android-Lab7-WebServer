@@ -5,7 +5,7 @@ if [ -n "$(git status --porcelain)" ]; then
     echo "Perform git status"
     git status
     echo "Exiting..."
-    exit 0
+    exit 1
 else
     echo "Git working tree is clean"
 fi

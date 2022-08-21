@@ -1,5 +1,5 @@
 #!/bin/bash
-
+pwd
 if [ -n "$(git status --porcelain)" ]; then
     echo "There are uncommitted changes in working tree"
     echo "Perform git status"

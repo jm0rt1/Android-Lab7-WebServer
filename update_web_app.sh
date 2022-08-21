@@ -1,5 +1,5 @@
 #!/bin/bash
-{./exit-on-uncommitted-changes.sh}
+exec ./exit-on-uncommitted-changes.sh
 echo "Updating web app"
 WEB_APP_PATH="/Applications/XAMPP/xamppfiles/htdocs/slimapp"
 

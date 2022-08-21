@@ -9,4 +9,4 @@ index_dest_path="${WEB_APP_PATH}/index.php"
 
 cp ./src/index.php ${index_dest_path}
 
-(cd SOME_PATH && ./init-venv.sh)
+(cd ${WEB_APP_PATH} && ./init-venv.sh)

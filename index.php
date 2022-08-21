@@ -10,7 +10,7 @@ function connect_to_db()
 }
 
 $app = new \Slim\App;
-// comment
+// comment 1
 
 $app->get('/api/users', function(Request $request, Response $response)
 {

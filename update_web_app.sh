@@ -5,7 +5,7 @@ set -e
 echo "Updating web app"
 
 # --- constants --- #
-WEB_APP_PATH="/Applications/XAMPP/xamppfiles/htdocs/slimapp"
+WEB_APP_PATH="/Applications/XAMPP/xamppfiles/htdocs/slimapp2"
 cwd=$(pwd)
 
 # --- variables --- #
